@@ -12,18 +12,27 @@
         <h1 id="heading">Pixcel Art Maker</h1><br><br>
 
         <label class="label" for="no of rows">Number of rows:</label>
-        <input class="input" type="number" ><br><br>
+        <input id="row" type="number" ><br><br>
 
         <label class="label" for="no of columns">Number of columns:</label>
-        <input class="input" type="number"><br><br>
+        <input id="column" type="number"><br><br>
 
-        <label class="label" for="color">Color:</label>
-        <input class="input" id="color" type="color" ><br><br><br><br>
+        <label class="label" for="color">Pick a color:</label>
+        <input id="color" type="color" ><br><br><br><br>
 
-        <button class="button">Draw</button>
-        <button class="button1">Clear</button>
+        <button id="draw">Draw</button>
+        <button id="clear">Clear</button>
+
+        
+        <button id="erase">Erase</button>
+        <button id="paint">Paint</button>
+        
+        
     </div><br><br><br>
-    <div id="table"></div>
     
+    
+    <div id="table"></div>
+    <!-- <table id="table"></table> -->
+    <script src="./pixcel.js"></script>
 </body>
 </html>

@@ -39,34 +39,63 @@ footer, header, hgroup, menu, nav, section {
     color: white;
     font-size: x-large;
 }
-.input{
+/* .input{
     border-radius: 0.5em;
     height: 2em;
+} */
+#row{
+    width: 15em;
+    height: 2.5em;
 }
-.button{
+#column{
+    width: 12.5em;
+    height: 2.7em;
+}
+#color{
+    width: 5em;
+    height: 3em;
+}
+#draw{
     width: 5em;
     padding: 0.8em;
     border-radius: 0.5em;
     font-size: large;
     margin-left: 4em;
 }
-.button1{
+#clear{
     width: 5em;
     padding: 0.8em;
     border-radius: 0.5em;
     font-size: large;
     margin-left: 5em;
 }
-.button:hover, .button1:hover{
+#draw:hover, #clear:hover{
     color: blue;
 }
 #table{
+    width: 25em;
+    height: 13em;
+    margin-left: 15%;
+    /* border: 2px solid black; */
+    /* background-color: white; */
+}
+#table:hover{
+    cursor: pointer;
+}
+tr, td{
+    border: 3px solid black;
+    background-color: white;
+    width: 1em;
+    height: 1em;
+}
+
+/* #table{
     width: 20em;
     height: 13em;
     margin-left: 3em;
     border: 2px solid black;
     background-color: white;
-}
+} */
 @media screen and (min-width : 500px) {
     #body{
         background-image: linear-gradient(to right, blue, purple, orange);
@@ -83,34 +112,63 @@ footer, header, hgroup, menu, nav, section {
         color: white;
         font-size: x-large;
     }
-    .input{
+    /* .input{
         border-radius: 0.5em;
         height: 2em;
+    } */
+    #row{
+        width: 13em;
+        height: 2.5em;
     }
-    .button{
+    #column{
+        width: 11em;
+        height: 2.7em;
+    }
+    #color{
+        width: 5em;
+        height: 3em;
+    }
+    #draw{
         width: 5.5em;
         padding: 1em;
         border-radius: 0.5em;
         font-size: large;
-        margin-left: 4.5em;
+        margin-left: 5em;
     }
-    .button1{
+    #clear{
         width: 5.5em;
         padding: 1em;
         border-radius: 0.5em;
         font-size: large;
         margin-left: 6em;
     }
-    .button:hover, .button1:hover{
+    #draw:hover, #clear:hover{
         color: blue;
     }
     #table{
-        width: 24em;
-        height: 16em;
-        margin-left: 3.5em;
-        border: 2px solid black;
-        background-color: white;
+        width: 25em;
+        height: 13em;
+        margin-left: 20%;
+        /* border: 2px solid black; */
+        /* background-color: white; */
     }
+    #table:hover{
+        cursor: pointer;
+    }
+    tr, td{
+        border: 3px solid black;
+        background-color: white;
+        width: 1em;
+        height: 1em;
+    }
+    
+    /* #table{
+        width: 20em;
+        height: 16em;
+        margin-left: 2.5em;
+        /* border: 2px solid black;
+        background-color: white; 
+    } */
 }
 @media screen and (min-width: 800px){
     #body{
@@ -124,43 +182,69 @@ footer, header, hgroup, menu, nav, section {
         margin-top: 1em;
     }
     .label{
-        margin-left: 1em;
+        margin-left: 4em;
         color: white;
         font-size: xx-large;
     }
-    .input{
+    /* .input{
         border-radius: 0.5em;
         height: 3em;
         width: 25em;
+    } */
+    #row{
+        width: 25em;
+        height: 2.5em;
+    }
+    #column{
+        width: 22em;
+        height: 2.7em;
     }
     #color{
         width: 5em;
+        height: 3em;
     }
-    .button{
+    #draw{
         width: 6em;
-        padding: 0.8em;
-        border-radius: 0.5em;
-        font-size: x-large;
-        margin-left: 7em;
-    }
-    .button1{
-        width: 56m;
         padding: 0.8em;
         border-radius: 0.5em;
         font-size: x-large;
         margin-left: 8em;
     }
-    .button:hover, .button1:hover{
+    #clear{
+        width: 6em;
+        padding: 0.8em;
+        border-radius: 0.5em;
+        font-size: x-large;
+        margin-left: 5em;
+    }
+    #draw:hover, #clear:hover{
         color: blue;
         cursor: grab;
     }
     #table{
-        width: 40em;
+        width: 25em;
+        height: 13em;
+        margin-left: 30%;
+        /* border: 2px solid black; */
+        /* background-color: white; */
+    }
+    #table:hover{
+        cursor: pointer;
+    }
+    tr, td{
+        border: 3px solid black;
+        background-color: white;
+        width: 1em;
+        height: 1em;
+    }
+    
+    /* #table{
+        width: 35em;
         height: 20em;
-        margin-left: 5em;
+        margin-left: 7em;
         border: 2px solid black;
         background-color: white;
-    }
+    } */
 }
 @media screen and (min-width : 1200px) {
     #body{
@@ -177,33 +261,82 @@ footer, header, hgroup, menu, nav, section {
         color: white;
         font-size: large;
     }
+    #row{
+        border-radius: 0.5em;
+        width: 25em;
+        height: 3em;
+    }
+    #column{
+        border-radius: 0.5em;
+        width: 25em;
+        height: 3em;
+    }
+    #color{
+        border-radius: 0.5em;
+        width: 5em;
+        height: 3em;
+    }
     .input{
         border-radius: 0.5em;
     }
-    .button{
+    #draw{
         width: 5em;
         padding: 0.6em;
         border-radius: 0.5em;
         font-size: large;
-        margin-left: 26.5em;
+        margin-left: 25em;
     }
-    .button1{
+    #clear{
         width: 5em;
         padding: 0.6em;
         border-radius: 0.5em;
         font-size: large;
-        margin-left: 10em;
+        margin-left: 0.5em;
     }
-    .button:hover, .button1:hover{
+    #draw:hover,  #clear:hover{
         color: blue;
         cursor: grab;
     }
+    #erase{
+        width: 5em;
+        padding: 0.6em;
+        border-radius: 0.5em;
+        font-size: large;
+        margin-left: 8em;
+    }
+    #paint{
+        width: 5em;
+        padding: 0.6em;
+        border-radius: 0.5em;
+        font-size: large;
+        margin-left: 0.5em;
+    }
+    #erase:hover,  #paint:hover{
+        color: blue;
+        cursor: grab;
+    }/* 
+    #div-btn{
+        margin-top: -2.7em;
+    } */
     #table{
-        width: 30em;
+        width: 25em;
         height: 13em;
-        margin-left: 26em;
-        border: 2px solid black;
+        margin-left: 40%;
+        margin-top: 5em;
+        /* border: 2px solid black; */
+        /* background-color: white; */
+    }
+    #table:hover{
+        cursor: pointer;
+    }
+    tr, td{
+        border: 3px solid black;
         background-color: white;
+        width: 1em;
+        height: 1em;
+    }
+    #clear{
+        cursor: grab;
     }
 
 }
