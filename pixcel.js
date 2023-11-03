@@ -45,17 +45,17 @@ function click(){
             // tdata.style.border = '3px solid black'
             // tdata.setAttribute("class", 'tdata');
 
-            // tdata.addEventListener('mousedown', () =>{
-            //     paint = true
-            //     if(erase) {
-            //         tdata.style.backgroundColor = 'transparent'
-            //     }else{
-            //         tdata.style.backgroundColor = colorButton.value
-            //     }
-            // })
-            // tdata.addEventListener('mouseup', () =>{
-            //     paint = false
-            // })
+            tdata.addEventListener('mousedown', () =>{
+                paint = true
+                if(erase) {
+                    tdata.style.backgroundColor = 'transparent'
+                }else{
+                    tdata.style.backgroundColor = colorButton.value
+                }
+            })
+            tdata.addEventListener('mouseup', () =>{
+                paint = false
+            })
             console.log("na me")
             trow.appendChild(tdata)
             tableContainer.appendChild(trow)
@@ -73,9 +73,9 @@ clearButton.addEventListener('click', (event) =>{
     event.preventDefault()
 })
 
-// eraseBtn.addEventListener('click', () =>{
-//     erase = true
-// })
-// paintBtn.addEventListener('click', () =>{
-//     erase = false
-// })
+eraseBtn.addEventListener('click', () =>{
+    erase = true
+})
+paintBtn.addEventListener('click', () =>{
+    erase = false
+})
