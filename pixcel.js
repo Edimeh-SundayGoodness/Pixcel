@@ -14,10 +14,17 @@
 // append your table row to your div or table
 // add an event listener of click to the clearButton
 // set the divContainer innerHTML to empty string to clear the tableContainer
+// mock up the buttons for erase and paint
+// set a paint and erase variable to be false
+// set an attribute of class to the td iside thw for loop for the Column
+// add an event listener of mousedown to the td variable
+// using if else statement, set, if erase is true the color should be transparent else the color should be equivalent to the value of the color button
+// add an event listener of mouse up to the td variable and set paint to be false
+// add an event listener of click to the erase button and set erase to be true
+// add an event listener of click to the paint button and set erase to be false
 
 
-// let inputRow = document.getElementById('row')
-// let inputColumn = document.getElementById('column')
+
 let colorButton = document.getElementById('color')
 let drawButton = document.getElementById('draw')
 let clearButton = document.getElementById('clear')
